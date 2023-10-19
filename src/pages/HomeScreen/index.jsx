@@ -162,7 +162,10 @@ const Homescreen = () => {
           )
         ) : (
           <Loading
-            text={ isFilterActive ? "Please wait a moment.." : null }
+            text={isFilterActive
+                ? "Preparing for filter, it's may take a long time"
+                : null
+            }
           />
         )}
       </div>
