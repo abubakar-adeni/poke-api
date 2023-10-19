@@ -164,7 +164,7 @@ const Homescreen = () => {
           <Loading
             text={
               isFilterActive
-                ? "Preparing for filter, it's may take a long time"
+                ? "Please wait a moment.."
                 : null
             }
           />
